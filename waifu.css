@@ -1,8 +1,9 @@
 #waifu-toggle {
 	position: fixed;
+	z-index: 9998;
 	writing-mode: vertical-rl;
 	bottom: 66px;
-	right:0px;
+	left:0px;
 	background-color: #fa0;
 	color: #fff;
 	border-radius: 5px;
@@ -12,10 +13,10 @@
 	cursor: pointer;
 }
 #waifu {
-	right:0;
+	left:0;
 	position: fixed;
 	bottom: -1000px;
-	z-index: 1;
+	z-index: 9999;
 	line-height: 0;
 	transition: transform .3s ease-in-out;
 	transform: translateY(3px);
